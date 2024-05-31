@@ -1,0 +1,12 @@
+INICIO{
+	ENTERO a1, a2=20, a3=0.0;
+	FLOTANTE b21, b22, b23=2.5;
+	FLOTANTE a1;
+	LEER (a1);
+	LEER (b21);
+	a3=SUM(a1,a2);
+	a2=RES(a1,SUM(30,a3));
+	b22=MUL(b21,DIV(b23,5.0));
+	IMPRIMIR (a2);
+	IMPRIMIR (b22);
+}FIN
